@@ -1,9 +1,5 @@
 import streamlit as st 
 
-
-st.set_page_config(page_title="BMI App", 
-                   page_icon="https://raw.githubusercontent.com/google/material-design-icons/master/png/action/info/materialicons/24dp/2x/baseline_info_black_24dp.png",
-                   layout="centered")
 st.header("BMI calculator")
 st.subheader("check whether you are underweight, healthy or overweight")
 
