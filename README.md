@@ -1,1 +1,1 @@
-# image-To-PDF-convertor
+# BMI calculator
