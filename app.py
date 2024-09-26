@@ -27,7 +27,7 @@ if height and weight:
 button = st.button('Calculate Bmi')
 if button:
     try:
-        st.write(f'your BMi is {bmi}')
+        st.write(f'your BMi is {round(bmi,2)}')
         if bmi < 16 :
             st.error('extremly underweight')
         elif bmi > 16 and bmi < 18.5:
